@@ -1,0 +1,14 @@
+setup.py
+Travel_Package_Prediction.egg-info/PKG-INFO
+Travel_Package_Prediction.egg-info/SOURCES.txt
+Travel_Package_Prediction.egg-info/dependency_links.txt
+Travel_Package_Prediction.egg-info/requires.txt
+Travel_Package_Prediction.egg-info/top_level.txt
+src/__init__.py
+src/app.py
+src/data_ingestion.py
+src/data_transformation.py
+src/exception.py
+src/logger.py
+src/model_trainer.py
+src/prediction_pipeline.py
