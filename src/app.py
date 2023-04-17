@@ -8,7 +8,8 @@ def home():
 
 @app.route("/predict")
 def predict():
-    return render_template("home.html")
+    if request.method=="POST":
+        pass
 
 if __name__=="__main__":
     app.run(debug=True)
