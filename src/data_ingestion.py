@@ -50,4 +50,3 @@ if __name__=="__main__":
      model_trainer_obj=ModelTrainer()
      model_trainer_obj.Initiate_model_trainer(x_train_arr=x_train_arr,x_test_arr=x_test_arr,y_train=y_train,y_test=y_test)
 
-

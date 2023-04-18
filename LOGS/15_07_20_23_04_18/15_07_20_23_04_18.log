@@ -1,0 +1,24 @@
+2023-04-18 15:07:21,410 - root - INFO-23- Data Ingestion Has been Initilize
+2023-04-18 15:07:21,424 - root - INFO-26- Read the data successfully
+2023-04-18 15:07:21,504 - root - INFO-32- Data Ingestion Has been Successfully.
+2023-04-18 15:07:21,553 - root - INFO-76- Read the Training and testing data set successfully.
+2023-04-18 15:07:21,553 - root - INFO-25- Data Transfomation has been started.
+2023-04-18 15:07:21,572 - root - INFO-28- Read the train data and test data successfully
+2023-04-18 15:07:21,574 - root - INFO-34- Differeciate numeric features and categorical features
+2023-04-18 15:07:21,577 - root - INFO-35- Our Numeric features are Index(['Unnamed: 0', 'CustomerID', 'Age', 'CityTier', 'DurationOfPitch',
+       'NumberOfPersonVisiting', 'NumberOfFollowups', 'PreferredPropertyStar',
+       'NumberOfTrips', 'Passport', 'PitchSatisfactionScore', 'OwnCar',
+       'NumberOfChildrenVisiting', 'MonthlyIncome'],
+      dtype='object')
+2023-04-18 15:07:21,577 - root - INFO-36- Our categorical Features areIndex(['TypeofContact', 'Occupation', 'Gender', 'ProductPitched',
+       'MaritalStatus', 'Designation'],
+      dtype='object')
+2023-04-18 15:07:21,577 - root - INFO-42- created numeric pipeline
+2023-04-18 15:07:21,577 - root - INFO-48- createc categorical features.
+2023-04-18 15:07:21,577 - root - INFO-55- Ready to train the Preprocessor on the training data
+2023-04-18 15:07:21,579 - root - INFO-60- Save the Object Successfully..
+2023-04-18 15:07:21,579 - root - INFO-79- Load the Preprocessor Sucessfully..
+2023-04-18 15:07:21,600 - root - INFO-88- Train the Preprocessor Successfully.
+2023-04-18 15:07:21,615 - root - INFO-92- Transform the Train data into the array using the transformer.
+2023-04-18 15:07:21,615 - root - INFO-93- Transform the Test data into the arr using the preprocessor.
+2023-04-18 15:07:21,615 - root - INFO-32- Model Path Initilize.
