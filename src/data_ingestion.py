@@ -5,6 +5,7 @@ from dataclasses import dataclass
 import os
 from logger import logging
 from exception import CustomException
+from data_transformation import DataTransformationConfig,DataTransformation
 
 
 @dataclass
@@ -35,9 +36,17 @@ class DataIngestion:
               )
 
          except Exception as e:
-              CustomException(e)
+              raise CustomException(e)
 
 
 if __name__=="__main__":
      data_ingestion_obj=DataIngestion()
      train_data_path,test_data_path=data_ingestion_obj.Initiate_data_ingestion()
+
+     data_transformation_obj=DataTransformation()
+     x_train_arr,y_train,x_test_arr,y_test=data_transformation_obj.Initiate_data_transformation(train_data_path=train_data_path,test_data_path=test_data_path)
+     print(x_train_arr)
+     print(x_train_arr.shape,"this is x_train shape")
+     print(x_test_arr.shape,"this is x_test shape")
+     print(y_test,y_test.shape,"this is shape of y_test")
+     print(y_train,y_train.shape,"this is y train shape")
