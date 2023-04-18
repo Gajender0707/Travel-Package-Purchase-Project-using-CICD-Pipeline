@@ -1,6 +1,7 @@
 from flask import Flask, render_template,request
 import pandas as pd
 import pickle
+import dill
 
 
 with open(r"notebook\Model.pkl","rb") as f:
@@ -56,7 +57,7 @@ def predict():
         }
 
         with open(r"C:\Users\asdf\Documents\D.S\INEURON-PROJECTS\Tour_Package_Project\notebook\Processor.pkl","rb") as f:
-            processor=pickle.load(f)
+            processor=dill.load(f)
 
         print(processor)
 
