@@ -6,6 +6,7 @@ import os
 from logger import logging
 from exception import CustomException
 from data_transformation import DataTransformationConfig,DataTransformation
+from model_trainer import ModelTrainerConfig,ModelTrainer
 
 
 @dataclass
@@ -45,8 +46,8 @@ if __name__=="__main__":
 
      data_transformation_obj=DataTransformation()
      x_train_arr,y_train,x_test_arr,y_test=data_transformation_obj.Initiate_data_transformation(train_data_path=train_data_path,test_data_path=test_data_path)
-     print(x_train_arr)
-     print(x_train_arr.shape,"this is x_train shape")
-     print(x_test_arr.shape,"this is x_test shape")
-     print(y_test,y_test.shape,"this is shape of y_test")
-     print(y_train,y_train.shape,"this is y train shape")
+
+     model_trainer_obj=ModelTrainer()
+     model_trainer_obj.Initiate_model_trainer(x_train_arr=x_train_arr,x_test_arr=x_test_arr,y_train=y_train,y_test=y_test)
+
+
