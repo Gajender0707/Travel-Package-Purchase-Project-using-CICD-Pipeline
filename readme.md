@@ -3,11 +3,12 @@ A End to  End project using CICD pipeline which will predict that A new Customer
 ## Table of contents
 * [General info](#general-info)
 * [Data Source](#data-source)
-* [Data Dictionary](#Data-Dictionary)
-* [Probelm](#Problem)
+* [Problem](#Problem)
+* [Demo Photos](#demo-photos)
 * [Library Used](#Library-Used)
 * [Structure Used](#structure-used)
 * [Deployment Technquies](#deployment-technquies)
+* [Run Locally](#Run-Locally)
 
 
 ## General info
@@ -17,8 +18,9 @@ We need to analyze the customers' data and information to provide recommendation
 
 ## Data Source
 [Travel Package Data](https://www.kaggle.com/code/yogidsba/travelpackageprediction-ensemble-techniques/input)
-## Libary used
-```
-Numpy--1.2
-pandas-3.3
-```
+
+## Problem
+To predict which customer is more likely to purchase the newly introduced travel package
+Which variables are most significant.
+Which segment of customers should be targeted more.
+
