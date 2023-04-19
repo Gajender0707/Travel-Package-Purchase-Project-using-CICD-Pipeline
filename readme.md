@@ -1,6 +1,6 @@
 # Travel Package Purchase Prediction 
 A End to  End project using CICD pipeline which will predict that A new Customer will Purchase the Package or Not.
-## Table of contents
+## 📝 Table of contents
 * [General info](#general-info)
 * [Data Source](#data-source)
 * [Problem Statement](#Problem-Statement)
@@ -16,7 +16,7 @@ A End to  End project using CICD pipeline which will predict that A new Customer
 
 We need to analyze the customers' data and information to provide recommendations to the Policy Maker and Marketing Team and also build a model to predict the potential customer who is going to purchase the newly introduced travel package.
 ***
-## Data Source
+## ⏳Data Source
 [Travel Package Data](https://www.kaggle.com/code/yogidsba/travelpackageprediction-ensemble-techniques/input)
 ***
 ## Problem Statement
@@ -28,7 +28,7 @@ Which segment of customers should be targeted more.
 <img width="1006" alt="tour_package" src="https://user-images.githubusercontent.com/92681972/232985096-7026b3ec-d469-442b-beb4-f5209d08acf9.png">
  Our Website will be look like and when we hit the submit button prediction will happen. adn output will be that customer will take the package or customer will not the package.
  
- ## Library Used
+ ## 🖥️Library Used
  There will be file named requirement.txt which will contain all these libraries used in project.
  ```
  pandas
@@ -41,7 +41,7 @@ flask
 dill
  ```
 *** 
- ## Structure Used
+ ## ⚙️Structure Used
  ### There are structure used for different-different work:
  * ```setup.py```This contains all details about the Project.
  * ```requirements.txt``` Contains the all the libraries used in the project.
@@ -70,5 +70,5 @@ dill
 ## Deployment Techniques
 * Deployment to AWS: The final step is to deploy the All files to an AWS server. This step is done by us using the ubuntu server where we deployed our model using the winSCP to connect the AWS server(EC2).
 
-## Project Created BY
+## 🎯Project Created BY
 [@Gajender](https://linkedin.com/in/gajender07)
