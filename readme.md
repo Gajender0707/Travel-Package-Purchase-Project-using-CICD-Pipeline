@@ -68,4 +68,7 @@ dill
 * Open the localhost url provided after running app.py and now you can use the project locally in your web browser or put ```http://127.0.0.1:5000``` which is your local host.
 
 ## Deployment Techniques
-* Deployment to AWS: The final step is to deploy the All files to an AWS server. This step is done by us using the ubuntu server where we deployed our model using the winSCP to connect the AWS server.
+* Deployment to AWS: The final step is to deploy the All files to an AWS server. This step is done by us using the ubuntu server where we deployed our model using the winSCP to connect the AWS server(EC2).
+
+## Project Created BY
+[@Gajender](linkedin.com/in/gajender07)
