@@ -1,0 +1,5 @@
+2023-04-19 11:00:59,637 - werkzeug - WARNING-224-  * Debugger is active!
+2023-04-19 11:00:59,642 - werkzeug - INFO-224-  * Debugger PIN: 976-793-088
+2023-04-19 11:01:02,588 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 11:01:02] "GET / HTTP/1.1" 200 -
+2023-04-19 11:01:13,643 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 11:01:13] "POST /predict HTTP/1.1" 200 -
+2023-04-19 11:02:52,539 - werkzeug - INFO-224-  * Detected change in 'c:\\Users\\asdf\\Documents\\D.S\\INEURON-PROJECTS\\Tour_Package_Project\\src\\app.py', reloading

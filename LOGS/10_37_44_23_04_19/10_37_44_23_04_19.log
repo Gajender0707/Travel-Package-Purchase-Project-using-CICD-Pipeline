@@ -1,0 +1,7 @@
+2023-04-19 10:37:46,246 - werkzeug - WARNING-224-  * Debugger is active!
+2023-04-19 10:37:46,248 - werkzeug - INFO-224-  * Debugger PIN: 976-793-088
+2023-04-19 10:37:49,013 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 10:37:49] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2023-04-19 10:37:49,095 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 10:37:49] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-04-19 10:37:49,099 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 10:37:49] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-04-19 10:37:49,132 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 10:37:49] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-19 10:38:31,626 - werkzeug - INFO-224-  * Detected change in 'c:\\users\\asdf\\documents\\d.s\\ineuron-projects\\tour_package_project\\src\\prediction_pipeline.py', reloading

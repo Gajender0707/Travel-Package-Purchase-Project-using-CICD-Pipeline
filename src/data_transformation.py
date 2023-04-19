@@ -29,7 +29,11 @@ class DataTransformation:
             Target="ProdTaken"
             y=train_data[Target]
             x=train_data.drop(Target,axis=1)
-            num_features=x.select_dtypes([int,float]).columns
+            # num_features=x.select_dtypes([int,float]).columns
+            num_features=['Age', 'CityTier', 'DurationOfPitch', 'NumberOfPersonVisiting',
+       'NumberOfFollowups', 'PreferredPropertyStar', 'NumberOfTrips',
+       'Passport', 'PitchSatisfactionScore', 'OwnCar',
+       'NumberOfChildrenVisiting', 'MonthlyIncome']
             cat_features=x.select_dtypes(object).columns
             logging.info("Differeciate numeric features and categorical features")
             logging.info(f"Our Numeric features are {num_features}")
@@ -54,10 +58,7 @@ class DataTransformation:
 
             logging.info("Ready to train the Preprocessor on the training data")
 
-            preprocessor_path=self.data_transformation_config.preprocessor_path
-
-            save_object(preprocessor,preprocessor_path)
-            logging.info("Save the Object Successfully..")
+            
 
             return preprocessor
 
@@ -84,8 +85,11 @@ class DataTransformation:
             y_test=test_data[Target]
             x_test=test_data.drop(Target,axis=1)
 
-            preprocessor.fit(x_train)
+            preprocessor=preprocessor.fit(x_train)
             logging.info("Train the Preprocessor Successfully.")
+            preprocessor_path=self.data_transformation_config.preprocessor_path
+            save_object(preprocessor,preprocessor_path)
+            logging.info("Save the Object Successfully..")
             x_train_arr=preprocessor.transform(x_train)
             x_test_arr=preprocessor.transform(x_test)
 

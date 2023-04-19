@@ -1,0 +1,24 @@
+2023-04-19 10:23:10,357 - root - INFO-22- Give the Model path for the saving the model.
+2023-04-19 10:23:10,358 - root - INFO-23- Data Ingestion Has been Initilize
+2023-04-19 10:23:10,376 - root - INFO-26- Read the data successfully
+2023-04-19 10:23:10,452 - root - INFO-32- Data Ingestion Has been Successfully.
+2023-04-19 10:23:10,529 - root - INFO-77- Read the Training and testing data set successfully.
+2023-04-19 10:23:10,529 - root - INFO-25- Data Transfomation has been started.
+2023-04-19 10:23:10,543 - root - INFO-28- Read the train data and test data successfully
+2023-04-19 10:23:10,545 - root - INFO-38- Differeciate numeric features and categorical features
+2023-04-19 10:23:10,548 - root - INFO-39- Our Numeric features are ['Age', 'CityTier', 'DurationOfPitch', 'NumberOfPersonVisiting', 'NumberOfFollowups', 'PreferredPropertyStar', 'NumberOfTrips', 'Passport', 'PitchSatisfactionScore', 'OwnCar', 'NumberOfChildrenVisiting', 'MonthlyIncome']
+2023-04-19 10:23:10,548 - root - INFO-40- Our categorical Features areIndex(['TypeofContact', 'Occupation', 'Gender', 'ProductPitched',
+       'MaritalStatus', 'Designation'],
+      dtype='object')
+2023-04-19 10:23:10,548 - root - INFO-46- created numeric pipeline
+2023-04-19 10:23:10,549 - root - INFO-52- createc categorical features.
+2023-04-19 10:23:10,549 - root - INFO-59- Ready to train the Preprocessor on the training data
+2023-04-19 10:23:10,549 - root - INFO-80- Load the Preprocessor Sucessfully..
+2023-04-19 10:23:10,571 - root - INFO-89- Train the Preprocessor Successfully.
+2023-04-19 10:23:10,574 - root - INFO-92- Save the Object Successfully..
+2023-04-19 10:23:10,592 - root - INFO-96- Transform the Train data into the array using the transformer.
+2023-04-19 10:23:10,592 - root - INFO-97- Transform the Test data into the arr using the preprocessor.
+2023-04-19 10:23:10,592 - root - INFO-28- Model Path Initilize.
+2023-04-19 10:23:10,592 - root - INFO-46- Give the Details about the Models
+2023-04-19 10:23:10,592 - root - INFO-73- Define the paramters for the Hyperparamter tuning.
+2023-04-19 10:23:35,279 - root - INFO-76- Fetch the Report about the Model using the utils define function.

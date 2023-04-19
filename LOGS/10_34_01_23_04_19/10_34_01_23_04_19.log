@@ -1,0 +1,8 @@
+2023-04-19 10:34:03,724 - werkzeug - WARNING-224-  * Debugger is active!
+2023-04-19 10:34:03,732 - werkzeug - INFO-224-  * Debugger PIN: 976-793-088
+2023-04-19 10:34:07,824 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 10:34:07] "GET / HTTP/1.1" 200 -
+2023-04-19 10:34:17,553 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 10:34:17] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2023-04-19 10:34:17,710 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 10:34:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-04-19 10:34:17,715 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 10:34:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-04-19 10:34:17,744 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 10:34:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-19 10:35:47,274 - werkzeug - INFO-224-  * Detected change in 'c:\\Users\\asdf\\Documents\\D.S\\INEURON-PROJECTS\\Tour_Package_Project\\src\\utils.py', reloading

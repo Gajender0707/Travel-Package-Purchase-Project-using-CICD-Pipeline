@@ -14,7 +14,7 @@ import dill
 from sklearn.model_selection import RandomizedSearchCV
 from dataclasses import dataclass
 import os
-from utils import evaluate_models,Best_model_evaluation,save_object
+from utils import evaluate_models,save_object
 
 @dataclass
 class ModelTrainerConfig:
@@ -72,13 +72,22 @@ class ModelTrainer:
                            }
             logging.info("Define the paramters for the Hyperparamter tuning.")
             
-            report:dict=evaluate_models(models,param,x_test_arr,y_test)
+            report:dict=evaluate_models(models,param,x_train_arr,y_train,x_test_arr,y_test)
             logging.info("Fetch the Report about the Model using the utils define function.")
-            best_model,best_score=Best_model_evaluation(models=models,report=report)
-            logging.info("Find out the best model and its accuracy by using utils defined function.")
+            print(report)
+            best_score=max(list(report.values()))
+            print(best_score)
+            best_model=list(report.keys())[list(report.values()).index(best_score)]
+            print(best_model)
+            # best_model=models[best_model_name]
+            # print(best_model)
+            # best_model,best_score=Best_model_evaluation(models=models,report=report)
+            # logging.info("Find out the best model and its accuracy by using utils defined function.")
+            # print(best_model)
+            # print(best_score)
 
             save_object(best_model,self.model_path_config.model_path)
-            logging.info("Save the Model Successfully.")
+            # logging.info("Save the Model Successfully.")
 
 
         except Exception as e:

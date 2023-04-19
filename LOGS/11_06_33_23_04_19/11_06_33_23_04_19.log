@@ -1,0 +1,6 @@
+2023-04-19 11:06:35,046 - werkzeug - WARNING-224-  * Debugger is active!
+2023-04-19 11:06:35,049 - werkzeug - INFO-224-  * Debugger PIN: 976-793-088
+2023-04-19 11:06:37,115 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 11:06:37] "GET / HTTP/1.1" 200 -
+2023-04-19 11:07:01,071 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 11:07:01] "POST /predict HTTP/1.1" 200 -
+2023-04-19 11:07:57,423 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 11:07:57] "POST /predict HTTP/1.1" 200 -
+2023-04-19 11:10:05,268 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 11:10:05] "POST /predict HTTP/1.1" 200 -
