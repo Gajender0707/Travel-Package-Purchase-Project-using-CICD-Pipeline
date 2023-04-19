@@ -24,7 +24,7 @@ To predict which customer is more likely to purchase the newly introduced travel
 Which variables are most significant.
 Which segment of customers should be targeted more.
 ***
-## Demo Photos
+## 📷 Demo Photos
 <img width="1006" alt="tour_package" src="https://user-images.githubusercontent.com/92681972/232985096-7026b3ec-d469-442b-beb4-f5209d08acf9.png">
  Our Website will be look like and when we hit the submit button prediction will happen. adn output will be that customer will take the package or customer will not the package.
  
@@ -59,7 +59,7 @@ dill
  * ```app.py``` is web app file which interact with user and take the input for new datapoints from the user and show the output by using the pre-trained model.
  
 
-## Run Locally
+## 👨🏻‍💻Run Locally
 * Before the following steps make sure you have git, Anaconda or miniconda installed on your system
 * Clone the complete project with git clonehttps://github.com/Gajender0707/Travel-Package-Project-using-CICD-Pipeline.git or you can just download the code and unzip it.
 * Once the project is cloned, open VSCode prompt in the directory where the project was cloned and paste the following block ```python venv -m myenv python=3.11.3``` after that 
