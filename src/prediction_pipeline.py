@@ -71,8 +71,8 @@ class Prediction:
             preprocessor=load_object(preprocessor_path)
             model=load_object(model_path)
             scaled_data=preprocessor.transform(features_df)
-            print(scaled_data)
-            print(scaled_data.shape)
+            # print(scaled_data)
+            # print(scaled_data.shape)
             result=model.predict(scaled_data)
             return result
 

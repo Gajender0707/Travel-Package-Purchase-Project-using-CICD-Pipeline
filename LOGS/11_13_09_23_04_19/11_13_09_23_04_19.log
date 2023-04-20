@@ -1,0 +1,13 @@
+2023-04-19 11:13:10,855 - werkzeug - WARNING-224-  * Debugger is active!
+2023-04-19 11:13:10,857 - werkzeug - INFO-224-  * Debugger PIN: 976-793-088
+2023-04-19 11:13:12,089 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 11:13:12] "GET / HTTP/1.1" 200 -
+2023-04-19 11:13:58,013 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 11:13:58] "POST /predict HTTP/1.1" 200 -
+2023-04-19 12:28:16,873 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 12:28:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2023-04-19 12:28:16,984 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 12:28:16] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-04-19 12:28:17,007 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 12:28:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-04-19 12:28:17,089 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 12:28:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-19 12:28:17,175 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 12:28:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-04-19 12:28:39,969 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 12:28:39] "POST /predict HTTP/1.1" 200 -
+2023-04-19 12:28:48,786 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 12:28:48] "POST /predict HTTP/1.1" 200 -
+2023-04-19 12:29:15,841 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 12:29:15] "GET / HTTP/1.1" 200 -
+2023-04-19 12:29:36,813 - werkzeug - INFO-224- 127.0.0.1 - - [19/Apr/2023 12:29:36] "POST /predict HTTP/1.1" 200 -
